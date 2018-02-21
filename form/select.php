@@ -5,7 +5,7 @@
 	<body>
 		<form method="POST">
 			<label for="sekolah">Pendidikan : </label>
-			<select name="sekolah">
+			<select name="sekolah[]" multiple>
 				<option value="1">1. TK</option>
 				<option value="2">2. SD</option>
 				<option value="3">3. SMP</option>
